@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+.main-container {
+  background-color: #ffc8dd;
+  height: 100vh;
+  width: 100vw;
+}
+
+.items{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 50px;
+}
+
+.say-yes {
+  padding: 40px;
+  overflow: scroll;
+}
+
+/* <!-- HTML !-->
+<button class="button-18" role="button">Button 18</button> */
+
+/* CSS */
+button{
+  align-items: center;
+  background-color: #172121;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+
+.ask-out-text{
+  
+  font-size: 24px;
+  font-weight: 900;
+  padding-bottom: 25px;
+}
+
+.alo-cei-asta {
+  font-size: 24px;
+  font-weight: 900;
+  
+}
+
+
+.cat-image {
+  height: 25vh;
+}
+
+.heart {
+  position: fixed;
+  font-size: 1.5rem;
+  top: -1vh;
+  transform: translateY(0);
+  animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+  from {
+    transform: translateY(0vh) translateX(-10vw);
+  }
+
+  to {
+    transform: translateY(105vh) translateX(10vw);
+  }
+}
