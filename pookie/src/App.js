@@ -9,6 +9,7 @@ function App() {
     <Routes>
       <Route path='/teAdor' element={<Home />} />
       <Route path='/accepted' element={<Accepted />} />
+      
       <Route path='/' element={<Alo/>}/>
     </Routes>
   );

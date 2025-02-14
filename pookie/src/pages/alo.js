@@ -8,7 +8,7 @@ export default function SecretPage() {
     if(secret == '02.10.2024'  || secret == '2.10.2024') {
         console.log('dadada');
         localStorage.setItem('numeleMeu','Sebi');
-        window.location.href='/teAdor';
+        window.location.href='test/#/teAdor';
     } else {
         alert('Ai cam gresit data..')
     }
